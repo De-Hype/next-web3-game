@@ -1,0 +1,14 @@
+.add-animation-dropdown{
+    animation: dropdownAnimation 0.5s ease-in;
+}
+@keyframes dropdownAnimation {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+        height: 100%;
+    }
+}
