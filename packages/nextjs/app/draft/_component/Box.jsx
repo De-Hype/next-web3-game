@@ -5,6 +5,7 @@ import react from "../assets/react.svg";
 import EnterDraw from "./EnterDraw";
 import TopPrizes from "./TopPrizes";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
+import "./App.css"
 
 export const Box = ({ prop, handlePrizeDropDown, showPrizeDropdown, handleEntriesDropDown, showEntriesDropdown }) => {
   const [show, setShow] = useState(false);
