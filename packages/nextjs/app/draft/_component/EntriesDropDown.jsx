@@ -2,7 +2,7 @@ import PrizeBox from "./PrizeBox";
 import { AiOutlineClose } from "react-icons/ai";
 
 const EntriesDropDown = ({ handleEntriesDropDown }) => {
-  export const EntriesData = [
+   const EntriesData = [
     {
         "number":1, 
         "image":"",

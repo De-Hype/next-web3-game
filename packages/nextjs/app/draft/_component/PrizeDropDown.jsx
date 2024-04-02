@@ -4,7 +4,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FaEthereum } from "react-icons/fa";
 
 const PrizeDropDown = ({ handlePrizeDropDown }) => {
-  export const PrizesData = [
+   const PrizesData = [
     {
         "number":1, 
         "amountInEther":0.0183,
