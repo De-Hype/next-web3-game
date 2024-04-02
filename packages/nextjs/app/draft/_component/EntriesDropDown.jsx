@@ -2,7 +2,39 @@ import PrizeBox from "./PrizeBox";
 import { AiOutlineClose } from "react-icons/ai";
 
 const EntriesDropDown = ({ handleEntriesDropDown }) => {
-  const EntriesData = [];
+  export const EntriesData = [
+    {
+        "number":1, 
+        "image":"",
+        "username":"chogunna",
+        "entries":34599
+    },
+    {
+        "number":2, 
+        "image":"",
+        "username":"Yolo1000x",
+        "entries":30000
+    }, 
+    {
+        "number":3, 
+        "image":"",
+        "username":"NftBumpy",
+        "entries":20732
+    },
+    {
+        "number":4, 
+        "image":"",
+        "username":"khuncoil",
+        "entries":20610
+    },
+    
+    {
+        "number":5, 
+        "image":"",
+        "username":"f_spilly",
+        "entries":19200
+    },
+]
   return (
     <div className="absolute flex items-center overflow-hidden justify-center mx-auto w-2/5  lg:w-full md:mx-0 md:px-1 px-4 py-2 z-50 h-full top-0 right-0 left-0 bottom-0">
       <div className="bg-slate-800 h-5/6 px-5  py-3 rounded-lg ">
